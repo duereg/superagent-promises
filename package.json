@@ -8,8 +8,10 @@
   "license": "MIT",
   "description": "Promise wrapper for superagent",
   "main": "./index.js",
+  "dependencies": {
+    "bluebird": "^2.3.5"
+  },
   "peerDependencies": {
-    "es6-promise": "*",
     "superagent": "*"
   },
   "keywords": [
